@@ -1,0 +1,57 @@
+.discProdPage {
+  @apply px-56;
+}
+
+.discProdCards {
+  @apply flex items-center gap-4 justify-center;
+}
+
+.discCardImg img {
+  @apply rounded-3xl;
+}
+
+.discCardImg {
+  @apply relative;
+}
+
+.discCardImg .discCardDisc {
+  @apply absolute bottom-0 flex items-center w-36 justify-center;
+  background: #ffb30e;
+  border-radius: 0 32px 0 24px;
+}
+
+.discCardDisc .discount h2 {
+  @apply text-white font-bold;
+  font-size: 68px;
+}
+
+.discCardDisc .discount_info h6:first-child {
+  @apply text-white text-3xl font-bold;
+}
+
+.discProdTitle h6 {
+  @apply text-xl font-bold;
+  color: #424242;
+}
+
+.discCardDisc .discount_info h6:last-child {
+  @apply text-white text-xl font-normal;
+}
+
+.discProdCard {
+  @apply flex flex-col gap-8;
+}
+
+.discProdTR {
+  @apply flex flex-col gap-3.5;
+}
+
+.discProdRemaining {
+  @apply rounded-lg px-4 py-2 w-48;
+  background: rgba(241, 114, 40, 0.2);
+}
+
+.discProdRemaining h6 {
+  @apply font-bold text-xl;
+  color: #f17228;
+}

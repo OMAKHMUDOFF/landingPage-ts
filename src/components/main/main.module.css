@@ -1,0 +1,64 @@
+.mainPage {
+  @apply px-56 py-4 flex justify-between items-center overflow-hidden;
+  background: url("../../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foodOrderForm {
+  @apply w-6/12 flex flex-col gap-8;
+}
+
+.mainTitle h1 {
+  @apply text-7xl font-bold text-white;
+  text-shadow: 0px 27px 82px rgba(255, 174, 0, 0.28),
+    0px 14px 15px rgba(255, 174, 0, 0.01);
+}
+
+.mainTitle p {
+  @apply font-normal text-xl;
+  color: #504f4f;
+}
+
+.delivery_or_pickup {
+  @apply flex gap-2 bg-white p-6 rounded-t-lg border border-b-2 w-full;
+  border-color: #eee;
+}
+.foodSearch {
+  @apply flex gap-4 bg-white p-6 rounded-b-lg  w-full items-center ;
+}
+
+.delivery_or_pickup button {
+  @apply flex items-center gap-2.5;
+}
+
+.foodPreView figure {
+  position: relative;
+}
+
+.preViewImg {
+  @apply translate-y-4;
+}
+
+.preViewShadow {
+  position: absolute;
+  bottom: 20px;
+  right: 165px;
+  width: 100%;
+  transform: rotate(315deg);
+}
+
+.foodSearchButton button {
+  @apply flex items-center gap-2.5 h-14;
+}
+
+.foodSearchInput {
+  @apply w-full flex items-center gap-3 rounded-lg;
+  background: #f5f5f5;
+  padding: 7px 0px 8px 16px;
+}
+
+.foodSearchInput input {
+  @apply bg-transparent outline-none text-lg font-normal;
+
+}
