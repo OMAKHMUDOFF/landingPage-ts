@@ -13,6 +13,13 @@ import bell from "../../assets/howwork/bell.svg";
 import payment from "../../assets/howwork/payment.svg";
 import emotions from "../../assets/howwork/emotions.svg";
 
+//popular products image
+import cheeseBurger from "../../assets/popularProd/cheeseBurger.png";
+import toffeCake from "../../assets/popularProd/toffe case.png";
+import dancake from "../../assets/popularProd/dancake.png";
+import sandwich from "../../assets/popularProd/sandwich.png";
+import soup from "../../assets/popularProd/soup.png";
+
 const mainState = {
   typeOrder: [
     { id: 1, title: "Delivery", icon: deliver },
@@ -74,6 +81,50 @@ const mainState = {
       title: "Enjoy meals",
       description: "Food is made and delivered directly to your home.",
       icon: emotions,
+    },
+  ],
+  popularProd: [
+    {
+      id: 11,
+      title: "Cheese Burger",
+      location: "Burger Arena",
+      price: 3.88,
+      Image: cheeseBurger,
+    },
+    {
+      id: 12,
+      title: "Toffe's Cake",
+      location: "Top Sticks",
+      price: 4.0,
+      Image: toffeCake,
+    },
+    {
+      id: 13,
+      title: "Dancake",
+      location: "Cake World",
+      price: 1.99,
+      Image: dancake,
+    },
+    {
+      id: 14,
+      title: "Crispy Sandwitch",
+      location: "Fastfood Dine",
+      price: 3.0,
+      Image: sandwich,
+    },
+    {
+      id: 15,
+      title: "Thai Soup",
+      location: "Foody man",
+      price: 2.97,
+      Image: soup,
+    },
+    {
+      id: 16,
+      title: "Dancake",
+      location: "Foody man",
+      price: 2.97,
+      Image: dancake,
     },
   ],
 };

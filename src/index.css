@@ -16,8 +16,36 @@ button {
   outline: none;
 }
 
-.appPagesContainer{
+.appPagesContainer {
   display: flex;
   flex-direction: column;
   gap: 80px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: ">";
+  font-size: 76px !important;
+  opacity: 1;
+  color: #ffb20e !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next {
+  right: -45px !important;
+}
+.slick-prev {
+  left: -95px !important;
+}
+
+.slick-cloned {
+  outline: none;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
