@@ -2,3 +2,39 @@
   @apply px-56;
 }
 
+.popularItemsCard .productImage img {
+  @apply rounded-2xl w-full;
+}
+
+.popularProdInfo {
+  @apply flex flex-col gap-1;
+}
+
+.popularProdTitle h6 {
+  @apply font-bold;
+
+  color: #424242;
+  font-size: 22px;
+}
+
+.popularProdLocation {
+  @apply flex items-center gap-2;
+}
+
+.popularProdLocation h6 {
+  @apply font-normal;
+  color: #ffb30e;
+  font-size: 22px;
+}
+
+.popularProdPrice h6 {
+  @apply font-bold;
+  color: #212121;
+  /* Headline 6 Bold */
+  font-size: 22px;
+}
+
+.popularProdOrder button {
+  box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24),
+    0px 5px 10px 0px rgba(253, 114, 92, 0.22);
+}

@@ -95,7 +95,7 @@ const mainState = {
       id: 12,
       title: "Toffe's Cake",
       location: "Top Sticks",
-      price: 4.0,
+      price: 4.00,
       Image: toffeCake,
     },
     {
@@ -109,7 +109,7 @@ const mainState = {
       id: 14,
       title: "Crispy Sandwitch",
       location: "Fastfood Dine",
-      price: 3.0,
+      price: 3.00,
       Image: sandwich,
     },
     {
