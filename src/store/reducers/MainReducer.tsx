@@ -20,6 +20,26 @@ import dancake from "../../assets/popularProd/dancake.png";
 import sandwich from "../../assets/popularProd/sandwich.png";
 import soup from "../../assets/popularProd/soup.png";
 
+//featured restaurants image
+import foodWorld from "../../assets/featuredRestaurants/FoodWorld.png";
+import pizzaHub from "../../assets/featuredRestaurants/Pizzahub.png";
+import donutsHut from "../../assets/featuredRestaurants/DonutsHub.png";
+import subway from "../../assets/featuredRestaurants/Subway.png";
+import rubyTues from "../../assets/featuredRestaurants/RubyTuesday.png";
+import KFC from "../../assets/featuredRestaurants/KFC.png";
+import redSquare from "../../assets/featuredRestaurants/RedSquare.png";
+import tacoBell from "../../assets/featuredRestaurants/TacoBell.png";
+
+//featured restaurants logo
+import fwLogo from "../../assets/featuredRestaurants/fwLogo.png";
+import pizhLogo from "../../assets/featuredRestaurants/pizhLogo.png";
+import dhLogo from "../../assets/featuredRestaurants/dhLogo.png";
+import subwayLogo from "../../assets/featuredRestaurants/subwayLogo.png";
+import rtLogo from "../../assets/featuredRestaurants/rtLogo.png";
+import kfcLogo from "../../assets/featuredRestaurants/kfcLogo.png";
+import rsLogo from "../../assets/featuredRestaurants/rsLogo.png";
+import tbLogo from "../../assets/featuredRestaurants/tbLogo.png";
+
 const mainState = {
   typeOrder: [
     { id: 1, title: "Delivery", icon: deliver },
@@ -95,7 +115,7 @@ const mainState = {
       id: 12,
       title: "Toffe's Cake",
       location: "Top Sticks",
-      price: 4.00,
+      price: 4.0,
       Image: toffeCake,
     },
     {
@@ -109,7 +129,7 @@ const mainState = {
       id: 14,
       title: "Crispy Sandwitch",
       location: "Fastfood Dine",
-      price: 3.00,
+      price: 3.0,
       Image: sandwich,
     },
     {
@@ -125,6 +145,88 @@ const mainState = {
       location: "Foody man",
       price: 2.97,
       Image: dancake,
+    },
+  ],
+  featuredRestaurants: [
+    {
+      id: 17,
+      cookTime: "Fast",
+      discount: 20,
+      restaurantName: "FoodWorld",
+      restaurantLogo: fwLogo,
+      rating: 46,
+      Image: foodWorld,
+      status: false,
+    },
+    {
+      id: 18,
+      cookTime: "Fast",
+      discount: 15,
+      restaurantName: "PizzaHub",
+      restaurantLogo: pizhLogo,
+      rating: 40,
+      Image: pizzaHub,
+      status: false,
+    },
+    {
+      id: 19,
+      cookTime: "Fast",
+      discount: 10,
+      restaurantName: "Donuts Hut",
+      restaurantLogo: dhLogo,
+      rating: 20,
+      Image: donutsHut,
+      status: true,
+    },
+    {
+      id: 20,
+      cookTime: "Fast",
+      discount: 15,
+      restaurantName: "Subway",
+      restaurantLogo: subwayLogo,
+      rating: 50,
+      Image: subway,
+      status: true,
+    },
+    {
+      id: 21,
+      cookTime: "Fast",
+      discount: 10,
+      restaurantName: "Ruby Tuesday",
+      restaurantLogo: rtLogo,
+      rating: 26,
+      Image: rubyTues,
+      status: true,
+    },
+    {
+      id: 22,
+      cookTime: "Fast",
+      discount: 25,
+      restaurantName: "Kuakata Fried Chicken",
+      restaurantLogo: kfcLogo,
+      rating: 53,
+      Image: KFC,
+      status: true,
+    },
+    {
+      id: 23,
+      cookTime: "Fast",
+      discount: 10,
+      restaurantName: "Red Square",
+      restaurantLogo: rsLogo,
+      rating: 45,
+      Image: redSquare,
+      status: false,
+    },
+    {
+      id: 24,
+      cookTime: "Fast",
+      discount: 10,
+      restaurantName: "Taco Bell",
+      restaurantLogo: tbLogo,
+      rating: 36,
+      Image: tacoBell,
+      status: true,
     },
   ],
 };
