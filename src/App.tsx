@@ -1,4 +1,5 @@
 import DiscProd from "./components/discProducts/DiscProd";
+import FeaturedRest from "./components/featured/FeaturedRest";
 import HowWork from "./components/howWork/HowWork";
 import MainPage from "./components/main/MainPage";
 import Navbar from "./components/navbar/Navbar";
@@ -13,6 +14,7 @@ function App() {
         <DiscProd />
         <HowWork />
         <PopularProd />
+        <FeaturedRest />
       </div>
     </>
   );
